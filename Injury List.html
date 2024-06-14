@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Injury List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .player {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .player img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .player-info {
+            flex: 1;
+        }
+
+        .player-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .player-position {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .injury {
+            font-weight: bold;
+            color: red;
+            margin-bottom: 5px;
+        }
+
+        .expected-recovery {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .player-description {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: #005eb8;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="Home.html">Home</a>
+        <a href="Articles.html">Articles</a>
+        <a href="Injury List.html">Injury List</a>
+        <a href="Matchdays.html">Matchdays</a>
+        <a href="Rosters.html">Rosters</a>
+        <a href="Chelsea Transfers.html">Transfers</a>
+    </header>
+
+    <div class="container">
+        <h1>Injury List</h1> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/315px-Chelsea_FC.svg.png?20230217230954" alt="Chelsea FC Logo" style="display: block; margin: 0 auto; width: 200px;">
+
+        <!-- Olivier Giroud's Injury -->
+        <div class="player">
+            <img src="https://static.wikia.nocookie.net/fightclubchampfanom/images/0/06/Olivier_Giroud.png/revision/latest?cb=20201029181142" alt="Olivier Giroud">
+            <div class="player-info">
+                <div class="player-name">Olivier Giroud</div>
+                <div class="player-position">Forward</div>
+                <div class="injury">Sprained ankle</div>
+                <div class="expected-recovery">Expected Time out: 9 - 11 Days</div>
+                <p class="player-description">Olivier Giroud Sprained his Ankle in the match against Arsenal.</p>
+            </div>
+        </div>
+
+        <!-- Add other injuries here -->
+        
+        <!-- Eden Hazard's Injury -->
+        <div class="player">
+            <img src="https://b.fssta.com/uploads/application/soccer/headshots/215.vresize.350.350.medium.52.png" alt="Eden Hazard">
+            <div class="player-info">
+                <div class="player-name">Eden Hazard</div>
+                <div class="player-position">Forward</div>
+                <div class="injury">Ankle Sprain</div>
+                <div class="expected-recovery">Expected Time out: 4 - 6 Days</div>
+                <p class="player-description">Eden Hazard suffered an ankle sprain during a training session.</p>
+            </div>
+        </div>
+
+        <!-- N'golo Kanté's Injury -->
+        <div class="player">
+            <img src="https://premierleague-static-files.s3.amazonaws.com/premierleague/photos/players/250x250/p116594.png" alt="N'golo Kanté">
+            <div class="player-info">
+                <div class="player-name">N'golo Kanté</div>
+                <div class="player-position">Midfielder</div>
+                <div class="injury">Hamstring Injury</div>
+                <div class="expected-recovery">Expected Time out: 3 - 4 Days</div>
+                <p class="player-description">N'golo Kanté sustained a hamstring injury during a match against Manchester City.</p>
+            </div>
+        </div>
+
+        <!-- Marcos Alonso's Injury -->
+        <div class="player">
+            <img src="https://www.soccerzz.com/img/jogadores/18/607718_ori__20190917140403_marcos_alonso.png" alt="Marcos Alonso">
+            <div class="player-info">
+                <div class="player-name">Marcos Alonso</div>
+                <div class="player-position">Defender</div>
+                <div class="injury">Fractured Rib</div>
+                <div class="expected-recovery">Expected Time out: 2 - 3 weeks</div>
+                <p class="player-description">Marcos Alonso suffered a fractured rib during a collision in the previous match.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
